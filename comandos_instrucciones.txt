@@ -1,0 +1,11 @@
+$ gcloud artifacts repositories create testrepo --repository-format=docker --location=northamerica-northeast1 --description="Test repositorylocacionDeLaRegion" --immutable-tags  --async
+
+$ gcloud auth configure-docker northamerica-northeast1-docker.pkg.dev   #Configuración de la autenticación de Docker
+
+Otorgar los permisos (roles) a la cuenta de servicio default del proyecto en IAM -> Service Account
+
+$ gcloud builds submit --tag locacionDeLaRegion-docker.pkg.dev/id_proyectoGCP/nombreRepositorioEnArtifactsRegistry/nombreImagenInventarUno:nombreTagInventarUno
+
+En Cloud Run realizar despliegue desde console GCP:
+
+cloud run -> Services -> Create service -> select URL image container -> Realizar Configure (Region + Authentication + Billing + Service scaling + Ingress + etc.) + Create
