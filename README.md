@@ -10,3 +10,12 @@ Se trabajó con la siguiente jerarquía de directorios y archivos desde Cloud Sh
   * templates/index.html: Página estática de prueba
   * static/style.css: Diseño de página de prueba
   * comandos_instrucciones.txt: Archivo con los comandos e instrucciones para realizar el deploy de prueba en Cloud Run
+
+## Tecnologías utilizadas:
+
+[Google Cloud Run](https://cloud.google.com/run?hl=es)
+[Docker](https://www.docker.com/)
+[Python](https://www.python.org/)
+[Flask](https://flask.palletsprojects.com/en/stable/)
+[HTML](https://html.spec.whatwg.org/multipage/)
+[CSS](https://www.w3.org/TR/css/#css)
