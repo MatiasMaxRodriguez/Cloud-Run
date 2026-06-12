@@ -11,6 +11,9 @@ Se trabajó con la siguiente jerarquía de directorios y archivos desde Cloud Sh
   * static/style.css: Diseño de página de prueba
   * comandos_instrucciones.txt: Archivo con los comandos e instrucciones para realizar el deploy de prueba en Cloud Run
 
+
+## Vista previsual del proyecto
+
 ![previsual del proyecto](https://github.com/MatiasMaxRodriguez/Cloud-Run/blob/main/crlab.gif)
 
 ## Tecnologías utilizadas:
